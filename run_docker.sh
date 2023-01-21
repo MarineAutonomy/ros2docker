@@ -3,4 +3,4 @@ docker run -it --rm --privileged --name dockerros2 \
     --env="DISPLAY" \
     --workdir="/home/docker" \
     --volume=$(pwd):"/home/docker" \
-    matsya/dockerros2:1.0 bash
+    aditya/dockerros2:1.0 bash

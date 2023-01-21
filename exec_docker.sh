@@ -1,0 +1,1 @@
+docker exec -it dockerros2 bash
