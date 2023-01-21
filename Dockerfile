@@ -1,6 +1,6 @@
 FROM osrf/ros:foxy-desktop
 
-LABEL maintainer="aditya"
+LABEL maintainer="matsya"
 LABEL version="1.0"
 LABEL description="Docker environment for ROS2"
 
