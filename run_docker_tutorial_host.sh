@@ -1,4 +1,4 @@
-docker run -it --rm --privileged --name matsya_ros2 \
+docker run -it --rm --device=/dev/ttyUSB0 --name matsya_ros2 \
     --net=host \
     --env="DISPLAY" \
     --workdir="/home/docker/colcon_ws" \
